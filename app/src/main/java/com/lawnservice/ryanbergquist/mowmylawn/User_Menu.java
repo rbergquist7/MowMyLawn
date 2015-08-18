@@ -1,32 +1,19 @@
 package com.lawnservice.ryanbergquist.mowmylawn;
 
-import android.content.Intent;
-import android.os.CountDownTimer;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainActivity extends ActionBarActivity {
+public class User_Menu extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login_screen);
 
-               startActivity(new Intent(MainActivity.this,User_Menu.class));
 
-        new CountDownTimer(5000, 1000) {
-
-            public void onTick(long millisUntilFinished) {
-            }
-
-            public void onFinish() {
-             //   Intent userMenu = new Intent(MainActivity.this,User_Menu.class);
-                startActivity(new Intent(MainActivity.this,User_Menu.class));
-            }
-        }.start();
     }
 
 
