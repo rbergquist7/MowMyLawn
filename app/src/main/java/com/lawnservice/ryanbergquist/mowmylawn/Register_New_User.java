@@ -14,10 +14,7 @@ public class Register_New_User extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        startActivity(new Intent(this,User_Menu.class));
-
+        setContentView(R.layout.activity_register);
 
     }
 

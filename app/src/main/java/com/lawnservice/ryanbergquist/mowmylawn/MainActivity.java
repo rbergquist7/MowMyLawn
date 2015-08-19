@@ -15,7 +15,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-               startActivity(new Intent(MainActivity.this,User_Menu.class));
+               startActivity(new Intent(MainActivity.this,Login_Screen.class));
 
         new CountDownTimer(5000, 1000) {
 
@@ -23,8 +23,8 @@ public class MainActivity extends ActionBarActivity {
             }
 
             public void onFinish() {
-             //   Intent userMenu = new Intent(MainActivity.this,User_Menu.class);
-                startActivity(new Intent(MainActivity.this,User_Menu.class));
+             //   Intent userMenu = new Intent(MainActivity.this,Login_Screen.class);
+                startActivity(new Intent(MainActivity.this,Login_Screen.class));
             }
         }.start();
     }

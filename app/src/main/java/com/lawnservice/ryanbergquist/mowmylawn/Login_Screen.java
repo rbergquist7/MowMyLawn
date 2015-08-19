@@ -1,12 +1,16 @@
 package com.lawnservice.ryanbergquist.mowmylawn;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
-public class User_Menu extends ActionBarActivity {
+public class Login_Screen extends ActionBarActivity {
+   // Button mButton_Register = (Button)findViewById(R.id.Register);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,5 +41,10 @@ public class User_Menu extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void toRegister(View view) {
+        Intent userMenu = new Intent(this,Register_New_User.class);
+        startActivity(userMenu);
     }
 }

@@ -75,7 +75,7 @@ tools:context=".LoginScreen">
     android:layout_marginStart="20dp"
     android:layout_toRightOf="@+id/btn_login"
     android:layout_toEndOf="@+id/btn_login"
-    android:onClick="toUserMenu"
+    android:onClick="toRegister"
     android:text="@string/Register" />
 
 </RelativeLayout>

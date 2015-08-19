@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".User_Menu"
+            android:name=".Login_Screen"
             android:label="@string/Login">
         </activity>
     </application>

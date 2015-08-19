@@ -2,7 +2,6 @@ package com.lawnservice.ryanbergquist.mowmylawn;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,7 +16,7 @@ public class Lawns_Applied_For extends ActionBarActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        startActivity(new Intent(this,User_Menu.class));
+        startActivity(new Intent(this,Login_Screen.class));
 
 
     }
