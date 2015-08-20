@@ -20,6 +20,8 @@
     <string name="Phone">Enter Your Phone Number</string>
     <string name="Register_Now">Sign Up</string>
     <string name="Age">Enter Your Age</string>
+    <string name="name">Name</string>
+    <string name="provider_name">Name</string>
 
 
 </resources>

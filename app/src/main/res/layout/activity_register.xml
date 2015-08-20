@@ -9,22 +9,19 @@
         android:visibility="visible"
         android:orientation="horizontal"
         android:weightSum="10"
-        android:background="#FFFFFF">
-
+        android:background="#DEB887">
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Service"
             android:layout_below="@id/button"
-            android:id="@+id/button2"
-            android:layout_weight="5" />
+            android:id="@+id/button2" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Owner"
-            android:id="@+id/button"
-            android:layout_weight="5" />
+            android:id="@+id/button" />
 
     </RelativeLayout>
 
@@ -35,7 +32,7 @@
         android:visibility="invisible"
         android:orientation="horizontal"
         android:weightSum="10"
-        android:background="#FFFFFF">
+        android:background="#DEB887">
 
         <TextView
             android:layout_width="wrap_content"
@@ -61,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:text="@string/provider_name"
             android:ems="10"
             android:id="@+id/editText"
             android:layout_alignParentTop="true"
@@ -138,7 +135,8 @@
             android:layout_below="@+id/spinner"
             android:layout_toRightOf="@+id/textView4"
             android:layout_alignRight="@+id/editText3"
-            android:layout_alignEnd="@+id/editText3" />
+            android:layout_alignEnd="@+id/editText3"
+            android:inputType="none" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -197,7 +195,7 @@
         android:visibility="invisible"
         android:orientation="horizontal"
         android:weightSum="10"
-        android:background="#FFFFFF">
+        android:background="#DEB887">
 
         <TextView
             android:layout_width="wrap_content"
@@ -223,7 +221,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:text="@string/name"
             android:ems="10"
             android:id="@+id/editText-2"
             android:layout_alignParentTop="true"
@@ -300,7 +298,8 @@
             android:layout_below="@+id/spinner-2"
             android:layout_toRightOf="@+id/textView4-2"
             android:layout_alignRight="@+id/editText3-2"
-            android:layout_alignEnd="@+id/editText3-2" />
+            android:layout_alignEnd="@+id/editText3-2"
+            android:inputType="number" />
 
         <TextView
             android:layout_width="wrap_content"
