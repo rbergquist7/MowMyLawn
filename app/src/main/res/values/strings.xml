@@ -9,6 +9,17 @@
     <string name="Password">Enter Password:</string>
     <string name="Login">Login</string>
     <string name="Register">Register New User</string>
+    <string name="title_activity_list__lawns">Map</string>
+    <string name="Owner">Register as Home Owner</string>
+    <string name="Service">Register as Service Provider</string>
+    <string name="Full_Name">Please Enter Full Name</string>
+    <string name="Address">Please Enter Your Address</string>
+    <string name="City">Enter Your City</string>
+    <string name="State">Please Select Your State</string>
+    <string name="Zip">Enter Your Zip Code</string>
+    <string name="Phone">Enter Your Phone Number</string>
+    <string name="Register_Now">Sign Up</string>
+    <string name="Age">Enter Your Age</string>
 
 
 </resources>

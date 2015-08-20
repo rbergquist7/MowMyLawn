@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.List;
+
 
 public class Login_Screen extends ActionBarActivity {
    // Button mButton_Register = (Button)findViewById(R.id.Register);
@@ -44,7 +46,11 @@ public class Login_Screen extends ActionBarActivity {
     }
 
     public void toRegister(View view) {
-        Intent userMenu = new Intent(this,Register_New_User.class);
-        startActivity(userMenu);
+        Intent Register = new Intent(this,Register_New_User.class);
+        startActivity(Register);
+    }
+    public void toListLawns(View view) {
+        Intent ListLawn = new Intent(this,List_Lawns.class);
+        startActivity(ListLawn);
     }
 }
